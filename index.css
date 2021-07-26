@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@500&family=Hind+Siliguri&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+    position: absolute;
+    /* border: 5px red solid; */
+    width: 27%;
+    height: 45%;
+    top: 28%;
+    left: 38%;
+}
+
+.container h1{
+   font-family: 'Heebo', sans-serif;
+   display: inline-block;
+   font-size: 30px; 
+   color: white;
+   border-bottom: 5px purple solid;
+   margin-bottom: 29px;
+   padding: 10px;
+}
+.box{
+    /* border: 2px purple solid; */
+    margin: 12px;
+    padding: 3px;
+    border-bottom: 2px purple solid;
+}
+
+.box input{
+    font-family: 'Hind Siliguri', sans-serif;
+    background: none;
+    width: 78%;
+    font-size: 13px;
+    border: none;
+    outline: none;
+    margin-left: 6px;
+    padding: 8px; 
+    color: white;
+    /* margin: 8px; */
+}
+
+.btn{
+    font-family: 'Encode Sans SC', sans-serif;
+    cursor: pointer;
+    margin: 2px;
+    width: 25%;
+    height: 13%;
+    border-radius: 10PX;
+    outline: none;
+    /* border: 2px purple solid; */
+    margin: 25px; 
+    margin-left: 10px;   
+    background: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    border: 2px purple solid;
+    padding: 0 4px;
+    
+
+}
+.box i{
+    padding: 0 10px;
+    text-align: center;
+    width: 15px;
+
+}
+.btn:hover{
+    color: purple;
+    background: white;
+    opacity: 0.5;
+}
